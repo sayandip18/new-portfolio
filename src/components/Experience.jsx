@@ -39,6 +39,17 @@ const experiences = [
       'Helped migrate legacy data from MongoDB to a structured data warehouse on GCP BigQuery, improving data reliability and analytics capability.',
     ],
   },
+  {
+    company: 'Python Software Foundation',
+    role: 'Open Source Contributor — GSoC 2021',
+    period: 'Summer 2021',
+    location: 'Remote',
+    points: [
+      'Selected for Google Summer of Code 2021 under the Python Software Foundation to contribute to PyData/Sparse.',
+      'Designed and implemented from scratch an ndarray-compatible Python API enabling seamless integration with NumPy-like workflows.',
+      'The library is positioned to become the de-facto sparse array implementation in the Python ecosystem, replacing scipy.sparse.',
+    ],
+  },
 ]
 
 const education = {

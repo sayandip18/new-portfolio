@@ -26,6 +26,12 @@ const projects = [
       'Full-stack Locations module allowing companies to register operational locations critical for determining applicable federal, state, and local regulations. Onboarded hundreds of locations and generated new revenue streams.',
     tech: ['Next.js', 'NestJS', 'PostgreSQL', 'TypeScript'],
   },
+  {
+    title: 'Modal Stack Manager',
+    description:
+      'A React library implementing a stack-based data structure to manage sequential modal components. Uses React Context API to provide a clean, composable interface for orchestrating complex multi-step user flows — push to open, pop to close, with full state isolation per layer.',
+    tech: ['React', 'TypeScript', 'Context API'],
+  },
 ]
 
 function ProjectCard({ project, index }) {
