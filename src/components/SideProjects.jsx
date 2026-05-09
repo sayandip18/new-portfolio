@@ -20,6 +20,23 @@ const sideProjects = [
     tech: ["React", "NodeJS", "Express", "React Flow", "Gemini Flash"],
     github: "https://github.com/sayandip18/insightboard",
   },
+  {
+    title: "IntelliDoc",
+    org: "Personal",
+    description:
+      "IntelliDoc is an agentic document intelligence system that ingests PDFs, Word files, and text documents, processes them through a multi-stage AI pipeline using LangGraph, and enables intelligent querying through a FastAPI backend.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "Celery",
+      "Redis",
+      "Postgres + pgvector",
+      "OpenAI",
+      "Docker",
+    ],
+    github: "https://github.com/sayandip18/intellidoc",
+  },
 ];
 
 function SideProjectCard({ project, index }) {
