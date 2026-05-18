@@ -5,22 +5,6 @@ import { GithubIcon } from "./icons";
 
 const sideProjects = [
   {
-    title: "RateLim",
-    org: "Personal",
-    description:
-      "A rate limiter built with NestJS for both gateway and microservice layers, using Redis as the source of truth for a token bucket algorithm.",
-    tech: ["NestJS", "Redis", "Nginx", "Docker", "TypeScript"],
-    github: "https://github.com/sayandip18/rate-lim",
-  },
-  {
-    title: "Insightboard",
-    org: "Personal",
-    description:
-      "A React + Express monorepo that takes a Google Meet text transcript, identifies tasks, subtasks, and blocking tasks, and converts them into a dependency graph using Gemini 2.5 Flash. React Flow renders the interactive dependency graph.",
-    tech: ["React", "NodeJS", "Express", "React Flow", "Gemini Flash"],
-    github: "https://github.com/sayandip18/insightboard",
-  },
-  {
     title: "IntelliDoc",
     org: "Personal",
     description:
@@ -36,6 +20,38 @@ const sideProjects = [
       "Docker",
     ],
     github: "https://github.com/sayandip18/intellidoc",
+  },
+  {
+    title: "Autocode",
+    org: "Personal",
+    description:
+      "An AI research assistant with GitHub, arXiv and web retrieval capabilities, and per-user episodic memory. The system combines short-term conversational state (via LangGraph checkpoints) with long-term semantic memory retrieval, enabling the agent to remember important past interactions and use them to answer future queries more intelligently.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "Langchain",
+      "Docker",
+      "Postgres + pgvector",
+      "OpenAI",
+    ],
+    github: "https://github.com/sayandip18/autocode",
+  },
+  {
+    title: "RateLim",
+    org: "Personal",
+    description:
+      "A rate limiter built with NestJS for both gateway and microservice layers, using Redis as the source of truth for a token bucket algorithm.",
+    tech: ["NestJS", "Redis", "Nginx", "Docker", "TypeScript"],
+    github: "https://github.com/sayandip18/rate-lim",
+  },
+  {
+    title: "Insightboard",
+    org: "Personal",
+    description:
+      "A React + Express monorepo that takes a Google Meet text transcript, identifies tasks, subtasks, and blocking tasks, and converts them into a dependency graph using Gemini 2.5 Flash. React Flow renders the interactive dependency graph.",
+    tech: ["React", "NodeJS", "Express", "React Flow", "Gemini Flash"],
+    github: "https://github.com/sayandip18/insightboard",
   },
 ];
 
@@ -232,7 +248,7 @@ export default function SideProjects() {
               margin: 0,
             }}
           >
-            What I tinker with
+            What I have built and tinker with
           </h2>
         </motion.div>
 
