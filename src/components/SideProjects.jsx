@@ -38,20 +38,20 @@ const sideProjects = [
     github: "https://github.com/sayandip18/autocode",
   },
   {
+    title: "Chatbot SDK",
+    org: "Personal",
+    description:
+      "The backend exposes a streaming chat API where users create sessions, send messages, and receive LLM responses as a real-time stream (SSE). Sessions can target different LLM providers at creation time. After every LLM call, the system asynchronously records an observability record — latency, token counts, TTFT, error classification — and publishes it to a Redis stream for downstream analytics. All messages (both user and assistant) pass through a background PII redaction worker before being marked complete in the database, scrubbing all personal data",
+    tech: ["NestJS", "Redis", "Kubernetes", "Docker", "TypeScript"],
+    github: "https://github.com/sayandip18/chatbot-sdk",
+  },
+  {
     title: "RateLim",
     org: "Personal",
     description:
       "A rate limiter built with NestJS for both gateway and microservice layers, using Redis as the source of truth for a token bucket algorithm.",
     tech: ["NestJS", "Redis", "Nginx", "Docker", "TypeScript"],
     github: "https://github.com/sayandip18/rate-lim",
-  },
-  {
-    title: "Insightboard",
-    org: "Personal",
-    description:
-      "A React + Express monorepo that takes a Google Meet text transcript, identifies tasks, subtasks, and blocking tasks, and converts them into a dependency graph using Gemini 2.5 Flash. React Flow renders the interactive dependency graph.",
-    tech: ["React", "NodeJS", "Express", "React Flow", "Gemini Flash"],
-    github: "https://github.com/sayandip18/insightboard",
   },
 ];
 
